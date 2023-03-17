@@ -54,6 +54,17 @@ console.log("Boton Recetario")
 
 }
 
+//JSON
+// array --> var tarjetasRecetas [tarjeta1 , tarjeta2, tarjeta3];
+// convertir array en objeto --> var myObj = {tarjetasRecetas}
+// convertir JSON --> var TarjertasJSON = JSON.stringify(tarjetaRecetas);
+
+
+
+
+
+//---Funcion descubrir y rotar las tarjetas Recetario---
+
 // function descubrir (tarjeta1, tarjeta2, tarjeta3){
 //     this.classList.add("descubierta"); 
 
