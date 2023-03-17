@@ -1,0 +1,99 @@
+.contenedor{
+       position: relative;
+       width:  100px;
+       height: 600px;
+       top: 50%;
+       left: 50%;
+
+       display: flex; 
+ /*flex-direction:grid-auto-rows: */
+}
+
+.recetario {
+text-decoration:none;
+cursor: pointer;
+font-weight: 600;
+font-size: 20px;
+color:#ffffff;
+padding-top:15px;
+padding-bottom:15px;
+padding-left:40px;
+padding-right:40px;
+background-color:#f2595e;
+border-color: #F69DA1;
+border-width: 3px;
+border-style: solid;
+display: block;
+position: absolute;
+top: 50%;
+left: 50%;
+margin: -25px 0 0 -25px;
+}
+
+
+.recetario:hover { 
+    background-color: #851441;
+    border-color: #c34a86;
+}
+
+
+.tarjetas {
+    display:flex;
+    justify-content: center;
+}
+
+.tarjeta {
+    width: 25%;
+    margin: 30px 30px 30px 30px;
+    background-color: #ffffff;
+    padding: 40px;
+    text-align: center;
+    border: sandybrown;
+    box-shadow: 1px 1px 11px 0px #00000030;
+    cursor: grab;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+
+.tarjeta__contenido {
+    width: 25%;
+    position: absolute;
+    margin: 30px 30px 30px 30px;
+    background-color: #ffffff;
+    padding: 40px;
+    text-align: center;
+    border: sandybrown;
+    box-shadow: 1px 1px 11px 0px #00000030;
+    cursor: grab;
+    /* backface-visibility: hidden;
+    transform-style: preserve-3d;
+    transform: rotateY(-180deg); */
+}
+
+/* .tarjeta__contenido::selection{
+    background: transparent;
+}
+
+.tarjeta.descubierta{
+    transform: rotateY(-180deg);
+} */
+
+.tarjeta.img {
+   overflow-y: content-box;
+   overflow-x: content-box;
+   overflow: clip;
+}
+
+.h2 {
+    font-size: 17px;
+    color: #aaa;
+}
+
+.tiempo {
+    color: #ccc;
+}
+
+.preparación{
+    line-height: 30px;
+    color: #808080
+}
